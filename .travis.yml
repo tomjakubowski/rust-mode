@@ -6,12 +6,12 @@ matrix:
       sudo: false
       addons:
         apt:
-          packages: ['emacs23-gtk', 'emacs23-el']
+          packages: ['emacs23', 'emacs23-el']
     - env: EMACS=emacs24
       sudo: false
       addons:
         apt:
-          packages: ['emacs24-gtk', 'emacs24-el']
+          packages: ['emacs24', 'emacs24-el']
     - env: EMACS=emacs-snapshot
       sudo: true
 
